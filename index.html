@@ -14,20 +14,27 @@
 
 <body>
     <div class="container">
-        <h2>Search Instagram Photos</h2>
-        <div id="search">
-            <form role="form" method="POST" id="post-form" onsubmit="return false">
-                <div class="form-group">
+        <div class="twoColumn">
+            <h4>Search Instagram Photos</h4>
+            <div id="search">
+                <form role="form" method="POST" id="post-form">
                     <input type="text" class="form-control" id="query" required>
-                </div>
-                <br>
-                <button type="submit" class="search">Search</button>
-            </form>
-            <br>
-        </div>
+                    <button type="submit" class="search">Search</button>
+                </form>
 
-        <div id="results">
+            </div>
         </div>
+        <div class="twoColumn">
+            <div id="popular">
+                <h4>Get Popular Photos</h4>
+                <div class="getPop">Popular Images</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="results">
+    </div>
 
     </div>
 
