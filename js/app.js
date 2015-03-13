@@ -48,10 +48,12 @@ $(document).ready(function () {
 
         getImagesbyQuery(requestParam);
 
+
     });
 
 
     $("#popular").click(function () {
+        $('#query').val('');
 
         $('#results').html('');
         var client_id = 'df1be7028ee843dcb68036adc5bfc557';
